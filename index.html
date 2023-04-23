@@ -9,29 +9,29 @@
     <script src="calc.js" defer></script>
 </head>
 <body>
-    <main id="calc">
-        <div id="container">
-            <div id="display">0</div>
-            <button class="clear">AC</button>
-            <button class="sign">+/-</button>
-            <button class="percent">%</button>
-            <button class="operator">/</button>
-            <button class="operand">7</button>
-            <button class="operand">8</button>
-            <button class="operand">9</button>
-            <button class="operator">*</button>
-            <button class="operand">4</button>
-            <button class="operand">5</button>
-            <button class="operand">6</button>
-            <button class="operator">-</button>
-            <button class="operand">1</button>
-            <button class="operand">2</button>
-            <button class="operand">3</button>
-            <button class="operator">+</button>
-            <button id="zero" class="operand">0</button>
-            <button class="decimal">.</button>
-            <button class="equals">=</button>
+    <div class="grid">
+        <div class="output">
+            <div data-last class="last"></div>
+            <div data-current class="current"></div>
         </div>
-    </main>
+        <button data-clear class="span-two">AC</button>
+        <button data-del>DEL</button>
+        <button data-op>/</button>
+        <button data-num>1</button>
+        <button data-num>2</button>
+        <button data-num>3</button>
+        <button data-op>*</button>
+        <button data-num>4</button>
+        <button data-num>5</button>
+        <button data-num>6</button>
+        <button data-op>+</button>
+        <button data-num>7</button>
+        <button data-num>8</button>
+        <button data-num>9</button>
+        <button data-op>-</button>
+        <button data-num>.</button>
+        <button data-num>0</button>
+        <button data-equal class="span-two">=</button>
+    </div>
 </body>
 </html>
